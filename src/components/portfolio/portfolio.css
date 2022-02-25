@@ -42,11 +42,13 @@
     color: white;
     background: transparent;
     border-radius: 2rem;
+    padding: 2rem 0;
 }
 
 .modal-content {
     background: var(--color-bg-variant);
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 

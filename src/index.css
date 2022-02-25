@@ -85,6 +85,12 @@ section > h2 {
   color: var(--color-light);
 }
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
 a {
   color: var(--color-primary);
   transition: var(--transition);
@@ -92,6 +98,7 @@ a {
 
 a:hover {
   color: var(--color-white);
+  text-decoration: none;
 }
 
 .btn {

@@ -42,7 +42,7 @@ const About = () => {
             <article className="about-card">
               <AiOutlineStock className='about-icon'/>
               <h5>Investing</h5>
-              <small>snd following updates in finance</small>
+              <small>and following financial news</small>
             </article>
           </div>
         </div>
