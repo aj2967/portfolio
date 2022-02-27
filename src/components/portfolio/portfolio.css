@@ -1,15 +1,18 @@
 .portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio-item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
+  margin: 1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  width: 300px;
 }
 
 .portfolio-item:hover {
@@ -35,29 +38,28 @@
 
 /* Modal Styling */
 .modal {
-    backdrop-filter: blur(9px);
+  backdrop-filter: blur(4px);
 }
 
 .modal-dialog {
-    color: white;
-    background: transparent;
-    border-radius: 2rem;
-    padding: 2rem 0;
+  color: white;
+  background: transparent;
+  border-radius: 2rem;
+  padding: 2rem 0;
 }
 
 .modal-content {
-    background: var(--color-bg-variant);
-    border-radius: 2rem;
-    padding: 1rem;
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
 }
-
-
 
 /* ----------- MEDIA QUERIES (MEDIUM DEVICES) ----------- */
 @media screen and (max-width: 1024px) {
   .portfolio-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
+    
   }
 }
 

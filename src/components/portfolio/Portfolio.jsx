@@ -1,8 +1,10 @@
 import { Modal } from 'bootstrap';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './portfolio.css';
 import P1 from '../../assets/p1.jpg'
 import P2 from '../../assets/p2.png'
+import P3 from '../../assets/p3.png'
 
 const Portfolio = () => {
 
@@ -54,6 +56,15 @@ const Portfolio = () => {
           <div className="portfolio-item-cta">
             <button type="button" className="btn" data-bs-toggle="modal" data-bs-target='#modal2'>More Info</button>
             <a href='http://lakefrontlodging.epizy.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio-item'>
+          <div className="portfolio-item-image">
+            <img src={P3} alt='Img' />
+          </div>
+          <h3>Puffin Group</h3>
+          <div className="portfolio-item-cta">
+            <Link to='/puffin' className="btn">More Info</Link>
           </div>
         </article>
       </div>
