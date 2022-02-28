@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d24860d.css",
-    "main.js": "/static/js/main.775bf3ae.js",
-    "static/media/my-puffin.png": "/static/media/my-puffin.f92278a427da58a0e0a7.png",
+    "main.css": "/static/css/main.8bd797e4.css",
+    "main.js": "/static/js/main.2050c009.js",
     "static/media/puffin-group.png": "/static/media/puffin-group.61b3b9ba025e379bc3d8.png",
+    "static/media/puffin-club.png": "/static/media/puffin-club.68f8e249ef80474194c7.png",
     "static/media/bg-texture.png": "/static/media/bg-texture.986000a6cc2f80ac43fd.png",
-    "static/media/CV.pdf": "/static/media/CV.f4f6457e4f0c6fc7045b.pdf",
-    "static/media/puffin-club.png": "/static/media/puffin-club.9bfda0ea5e560cc29895.png",
+    "static/media/CV.pdf": "/static/media/CV.5d97b71ebbe172c542e4.pdf",
+    "static/media/my-puffin.png": "/static/media/my-puffin.817d8aed46cb589f9e08.png",
     "static/media/p3.png": "/static/media/p3.843ce4a8aca7b4fbdc08.png",
     "static/media/p2.png": "/static/media/p2.859b474e9a1a8842d32f.png",
     "static/media/p1.jpg": "/static/media/p1.01a7a8a51d8a192ca8f0.jpg",
     "static/media/about.svg": "/static/media/about.f8bbcbe3b4f4792113ae8ad0f5ca23d9.svg",
     "static/media/me.svg": "/static/media/me.65a013d4b5db2a6eed1a83fa61bb92f0.svg",
     "index.html": "/index.html",
-    "main.1d24860d.css.map": "/static/css/main.1d24860d.css.map",
-    "main.775bf3ae.js.map": "/static/js/main.775bf3ae.js.map"
+    "main.8bd797e4.css.map": "/static/css/main.8bd797e4.css.map",
+    "main.2050c009.js.map": "/static/js/main.2050c009.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d24860d.css",
-    "static/js/main.775bf3ae.js"
+    "static/css/main.8bd797e4.css",
+    "static/js/main.2050c009.js"
   ]
 }
