@@ -1,12 +1,20 @@
 import { Modal } from 'bootstrap';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ReactGa from 'react-ga';
 import './portfolio.css';
 import P1 from '../../assets/p1.jpg'
 import P2 from '../../assets/p2.png'
 import P3 from '../../assets/p3.png'
 
 const Portfolio = () => {
+
+  const handleViews = () => {
+    ReactGa.event({
+      category: 'Button',
+      action: 'Clicked live demo button'
+    })
+  }
 
   const portfolioData = [
     {
@@ -45,7 +53,7 @@ const Portfolio = () => {
           <h3>Automotive Innovations</h3>
           <div className="portfolio-item-cta">
             <button type="button" className="btn" data-bs-toggle="modal" data-bs-target='#modal1'>More Info</button>
-            <a href='https://automotive-innovations.netlify.app/index.html' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://automotive-innovations.netlify.app/index.html' className='btn btn-primary' target='_blank' onClick={handleViews}>Live Demo</a>
           </div>
         </article>
         <article className='portfolio-item'>
@@ -55,7 +63,7 @@ const Portfolio = () => {
           <h3>Lakefront Lodging</h3>
           <div className="portfolio-item-cta">
             <button type="button" className="btn" data-bs-toggle="modal" data-bs-target='#modal2'>More Info</button>
-            <a href='http://lakefrontlodging.epizy.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='http://lakefrontlodging.epizy.com/' className='btn btn-primary' target='_blank' onClick={handleViews}>Live Demo</a>
           </div>
         </article>
         <article className='portfolio-item'>
