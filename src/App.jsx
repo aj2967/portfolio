@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import ReactGA from 'react-ga';
+import ReactGa from 'react-ga';
 
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
@@ -13,14 +13,6 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
-
-  useEffect(() => {
-    ReactGA.initialize('G-KQ628QYLXB');
-
-    // Report page view
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  
-  }, [])
   
   return (
     <div>

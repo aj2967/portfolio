@@ -3,7 +3,6 @@ import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi'
 import { BsCardChecklist } from 'react-icons/bs'
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
 
 const Nav = () => {
 

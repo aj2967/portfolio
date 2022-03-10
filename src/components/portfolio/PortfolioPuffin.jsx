@@ -24,15 +24,15 @@ const PortfolioPuffin = () => {
         </div>
 
         <nav className='page-tabs'>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Puffin Group</button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Puffin Club</button>
-            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">My Puffin</button>
+          <div className="nav nav-tabs" id="nav-tab" role="tablist">
+            <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Puffin Group</button>
+            <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Puffin Club</button>
+            <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">My Puffin</button>
           </div>
         </nav>
 
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div className="tab-content" id="nav-tabContent">
+          <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <img src={PuffinGroup} alt="Puffin" />
             <h3>Brand Intro and e-Commerce</h3>
             <p>
@@ -40,7 +40,7 @@ const PortfolioPuffin = () => {
             </p>
           </div>
           
-          <div class="tab tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div className="tab tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <img src={PuffinClub} alt="Puffin" />
             <h3>Up to Date Blogs</h3>
             <p>
@@ -48,7 +48,7 @@ const PortfolioPuffin = () => {
             </p>
           </div>
 
-          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
             <img src={MyPuffin} alt="Puffin" />
             <h3>Updates on Baby Health</h3>
             <p>
