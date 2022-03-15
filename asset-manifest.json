@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.df331fed.css",
-    "main.js": "/static/js/main.5d175713.js",
+    "main.css": "/static/css/main.8d0d534d.css",
+    "main.js": "/static/js/main.b2bb91e2.js",
     "static/media/puffin-group.png": "/static/media/puffin-group.61b3b9ba025e379bc3d8.png",
     "static/media/puffin-club.png": "/static/media/puffin-club.68f8e249ef80474194c7.png",
     "static/media/bg-texture.png": "/static/media/bg-texture.986000a6cc2f80ac43fd.png",
-    "static/media/CV.pdf": "/static/media/CV.5d97b71ebbe172c542e4.pdf",
+    "static/media/CV.pdf": "/static/media/CV.83b85cea0482195fa6d0.pdf",
     "static/media/my-puffin.png": "/static/media/my-puffin.817d8aed46cb589f9e08.png",
     "static/media/pokedex-img.jpg": "/static/media/pokedex-img.675312b5cccf789764bf.jpg",
     "static/media/p3.png": "/static/media/p3.843ce4a8aca7b4fbdc08.png",
@@ -14,11 +14,11 @@
     "static/media/about.svg": "/static/media/about.f8bbcbe3b4f4792113ae8ad0f5ca23d9.svg",
     "static/media/me.svg": "/static/media/me.65a013d4b5db2a6eed1a83fa61bb92f0.svg",
     "index.html": "/index.html",
-    "main.df331fed.css.map": "/static/css/main.df331fed.css.map",
-    "main.5d175713.js.map": "/static/js/main.5d175713.js.map"
+    "main.8d0d534d.css.map": "/static/css/main.8d0d534d.css.map",
+    "main.b2bb91e2.js.map": "/static/js/main.b2bb91e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.df331fed.css",
-    "static/js/main.5d175713.js"
+    "static/css/main.8d0d534d.css",
+    "static/js/main.b2bb91e2.js"
   ]
 }
