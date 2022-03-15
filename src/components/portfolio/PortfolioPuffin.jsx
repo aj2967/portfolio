@@ -9,7 +9,7 @@ const PortfolioPuffin = () => {
   return (
     <div className='container'>
       <div className="portfolio-page-header">
-        <Link to='/' className='link-home'>
+        <Link to='/#contact' className='link-home'>
           <IoIosArrowRoundBack className='back-icon' />
           Back
         </Link>

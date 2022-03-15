@@ -17,7 +17,14 @@
 }
 
 html {
+  --scroll-behavior: smooth;
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .my-smooth-container {
+    scroll-behavior: auto;
+  }
 }
 
 ::-webkit-scrollbar {
