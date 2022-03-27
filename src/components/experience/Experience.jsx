@@ -55,7 +55,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>React JS</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
           </div>
@@ -68,7 +68,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
             
@@ -76,7 +76,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>PHP</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
            
@@ -84,7 +84,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>C#</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
            
@@ -92,7 +92,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>ASP .NET</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
         
@@ -100,7 +100,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience-details-icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
           </div>
