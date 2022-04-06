@@ -7,6 +7,7 @@ import P1 from '../../assets/p1.jpg'
 import P2 from '../../assets/p2.png'
 import P3 from '../../assets/p3.png'
 import pokedexImg from '../../assets/pokedex-img.jpg';
+import pacman from '../../assets/pacman.png'
 
 const Portfolio = () => {
 
@@ -49,6 +50,16 @@ const Portfolio = () => {
 
         <article className='portfolio-item'>
           <div className="portfolio-item-image">
+            <img src={pacman} alt='Img' />
+          </div>
+          <h3>Game Database</h3>
+          <div className="portfolio-item-cta">
+            <button type="button" className="btn" data-bs-toggle="modal" data-bs-target='#modal-game'>More Info</button>
+            <a href='https://aj2967.github.io/games-database/' className='btn btn-primary' target='_blank' onClick={handleViews}>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio-item'>
+          <div className="portfolio-item-image">
             <img src={pokedexImg} alt='Img' />
           </div>
           <h3>Pokedex</h3>
@@ -88,6 +99,21 @@ const Portfolio = () => {
         </article>
       </div>
 
+      {/* Modal Game*/}
+        <div className="modal fade" id="modal-game" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLabel">Details on a huge collection of games</h5>
+                <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div className="modal-body">
+                Users curious about getting details for a game are able to search using the data provided by RAWG's API and find a variety of information or filter their search for finding something close to their needs.
+              </div>
+            </div>
+          </div>
+        </div>
+      
       {/* Modal 1*/}
         <div className="modal fade" id="modal-automotive-innovations" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog">
