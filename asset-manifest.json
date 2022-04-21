@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.8d0d534d.css",
-    "main.js": "/static/js/main.7fa535f1.js",
+    "main.js": "/static/js/main.ce7e96da.js",
     "static/media/puffin-group.png": "/static/media/puffin-group.61b3b9ba025e379bc3d8.png",
+    "static/media/planets3dCover.png": "/static/media/planets3dCover.f9c33e6db29a7806b31f.png",
     "static/media/puffin-club.png": "/static/media/puffin-club.68f8e249ef80474194c7.png",
     "static/media/bg-texture.png": "/static/media/bg-texture.986000a6cc2f80ac43fd.png",
     "static/media/CV.pdf": "/static/media/CV.bb47d68d7b4f4b3ae46d.pdf",
@@ -16,10 +17,10 @@
     "static/media/me.svg": "/static/media/me.65a013d4b5db2a6eed1a83fa61bb92f0.svg",
     "index.html": "/index.html",
     "main.8d0d534d.css.map": "/static/css/main.8d0d534d.css.map",
-    "main.7fa535f1.js.map": "/static/js/main.7fa535f1.js.map"
+    "main.ce7e96da.js.map": "/static/js/main.ce7e96da.js.map"
   },
   "entrypoints": [
     "static/css/main.8d0d534d.css",
-    "static/js/main.7fa535f1.js"
+    "static/js/main.ce7e96da.js"
   ]
 }
