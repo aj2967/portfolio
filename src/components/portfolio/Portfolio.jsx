@@ -63,6 +63,17 @@ const Portfolio = () => {
       modaltitle: 'Details on a huge collection of games',
       modalText: `Users curious about getting details for a game are able to search using the data provided by RAWG's API and find a variety of information or filter their search for finding something close to their needs.`
     },
+    {
+      id: 5,
+      image: planets3dCover,
+      title: 'Planets 3D',
+      link: '',
+      demo: 'https://aj2967.github.io/planets-3d/',
+      buttonId: 'planets3d',
+      modalId: 'planets3d',
+      modaltitle: '3D Planets',
+      modalText: `An app made using ReactJS and React Three Fiber (a component based library that builds off ThreeJS for 3D rendering) and provides a 3D space to work with. In which I created planets by applying different textures to the mesh to emulate what some planets look like. As it's a 3D space the models viewable from any angle made possible using the React Three Drei plugin for orbit contols to observe the models in more detail.`
+    },
   ]
 
   return (
