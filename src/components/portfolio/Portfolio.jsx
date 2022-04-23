@@ -72,7 +72,7 @@ const Portfolio = () => {
       buttonId: 'planets3d',
       modalId: 'planets3d',
       modaltitle: '3D Planets',
-      modalText: `An app made using ReactJS and React Three Fiber (a component based library that builds off ThreeJS for 3D rendering) and provides a 3D space to work with. In which I created planets by applying different textures to the mesh to emulate what some planets look like. As it's a 3D space the models viewable from any angle made possible using the React Three Drei plugin for orbit contols to observe the models in more detail.`
+      modalText: `This app has been made using ReactJS and React Three Fiber. React Three Fiber is a component based library that builds off ThreeJS for 3D rendering. Providing an area which can be display the current universal planet which have been realistically presented by applying different textures to the mesh. The models can be viewed from any angle. Additionally, the space can be controlled and seen in more detail using the React Three Drei plugin.`
     },
   ]
 
