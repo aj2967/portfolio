@@ -1,6 +1,6 @@
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/me.svg';
+import ME from "../../assets/siteImages/me.svg";
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => {

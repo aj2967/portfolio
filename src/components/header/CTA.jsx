@@ -1,4 +1,4 @@
-import CV from "../../assets/Ajaybir_Singh_CV.pdf";
+import CV from "../../assets/cv/Ajaybir_Singh_CV.pdf";
 
 const CTA = () => {
 	return (

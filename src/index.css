@@ -46,9 +46,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-white) !important;
   line-height: 1.7;
-  background-image: url('./assets/bg-texture.png');
+  background-image: url('./assets/siteImages/bg-texture.png');
 }
 
 
@@ -65,6 +65,7 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+  color: var(--color-white)
 }
 
 h1 {
