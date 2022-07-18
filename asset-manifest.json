@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d0d534d.css",
-    "main.js": "/static/js/main.ad14c8e7.js",
+    "main.css": "/static/css/main.e7045b0a.css",
+    "main.js": "/static/js/main.702d1d79.js",
+    "static/media/responsiveness.gif": "/static/media/responsiveness.63842e92ade887961178.gif",
+    "static/media/manageCourse.gif": "/static/media/manageCourse.4a5e24981e75cc6b3ace.gif",
+    "static/media/playerExtra.gif": "/static/media/playerExtra.9da3dc23683aa4518f2d.gif",
+    "static/media/debounce.gif": "/static/media/debounce.9bb58ff376904147e948.gif",
+    "static/media/player.gif": "/static/media/player.2b2691c9bc3401c501d8.gif",
     "static/media/puffin-group.png": "/static/media/puffin-group.61b3b9ba025e379bc3d8.png",
-    "static/media/planets3dCover.png": "/static/media/planets3dCover.f9c33e6db29a7806b31f.png",
+    "static/media/planets3d.png": "/static/media/planets3d.f9c33e6db29a7806b31f.png",
     "static/media/puffin-club.png": "/static/media/puffin-club.68f8e249ef80474194c7.png",
     "static/media/bg-texture.png": "/static/media/bg-texture.986000a6cc2f80ac43fd.png",
-    "static/media/CV.pdf": "/static/media/CV.bb47d68d7b4f4b3ae46d.pdf",
+    "static/media/manageCourseSearch.gif": "/static/media/manageCourseSearch.d5170b6fdef383b6fa30.gif",
+    "static/media/Ajaybir_Singh_CV.pdf": "/static/media/Ajaybir_Singh_CV.1815f739c9fd9a96fc90.pdf",
     "static/media/pacman.png": "/static/media/pacman.b8f849f00701937f4be1.png",
     "static/media/my-puffin.png": "/static/media/my-puffin.817d8aed46cb589f9e08.png",
-    "static/media/pokedex-img.jpg": "/static/media/pokedex-img.675312b5cccf789764bf.jpg",
-    "static/media/p3.png": "/static/media/p3.843ce4a8aca7b4fbdc08.png",
-    "static/media/p2.png": "/static/media/p2.859b474e9a1a8842d32f.png",
-    "static/media/p1.jpg": "/static/media/p1.01a7a8a51d8a192ca8f0.jpg",
+    "static/media/pokedex.jpg": "/static/media/pokedex.675312b5cccf789764bf.jpg",
+    "static/media/puffin.png": "/static/media/puffin.843ce4a8aca7b4fbdc08.png",
+    "static/media/lakefrontLodging.png": "/static/media/lakefrontLodging.859b474e9a1a8842d32f.png",
+    "static/media/automotiveInnovations.jpg": "/static/media/automotiveInnovations.01a7a8a51d8a192ca8f0.jpg",
+    "static/media/spotifyPlayer.png": "/static/media/spotifyPlayer.4e00900a3b8addb6eb48.png",
     "static/media/about.svg": "/static/media/about.f8bbcbe3b4f4792113ae8ad0f5ca23d9.svg",
     "static/media/me.svg": "/static/media/me.65a013d4b5db2a6eed1a83fa61bb92f0.svg",
     "index.html": "/index.html",
-    "main.8d0d534d.css.map": "/static/css/main.8d0d534d.css.map",
-    "main.ad14c8e7.js.map": "/static/js/main.ad14c8e7.js.map"
+    "main.e7045b0a.css.map": "/static/css/main.e7045b0a.css.map",
+    "main.702d1d79.js.map": "/static/js/main.702d1d79.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d0d534d.css",
-    "static/js/main.ad14c8e7.js"
+    "static/css/main.e7045b0a.css",
+    "static/js/main.702d1d79.js"
   ]
 }
